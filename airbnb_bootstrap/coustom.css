@@ -1,0 +1,482 @@
+@charset "utf-8";
+
+body{
+	background-color: #EDEFED;
+}
+
+#all{
+	background-color: #EDEFED;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+a:hover {
+	color:#FFFFFF;
+}
+
+nav{
+	height: 32px;
+	width: 100%;
+	color: #FFF;
+}
+
+.nav-link{
+	color: #FFF;
+}
+
+.form-control{
+	line-height: 0px;
+	display:inline;
+	border-radius: 0px;
+}
+#Portal_down{
+	height: 106px;
+	background-color: rgba(0, 0, 0, 0.6);
+	padding-top: 31px;
+}
+#row_C{
+	width: 897px;
+	margin: 0px;
+}
+#SearchBox{
+	height: 44px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 897px;
+}
+#SearchBox_A{
+	height: 44px;
+	width: 380px;
+	border: 1px solid #646464;
+}
+#datepickerA{
+	height: 44px;
+	width: 118px;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 1px solid #646464;
+	border-bottom: 1px solid #646464;
+}
+#SearchBox_B{
+	height: 44px;
+	width: 27px;
+	text-align: center; 
+	line-height: 44px; 
+	padding:0px;
+	background-color: #FFF;
+	border-top: 1px solid #646464;
+	border-bottom: 1px solid #646464;
+}
+#datepickerB{
+	height: 44px;
+	width: 155px;
+	border-left: 0px;
+	border-right: 1px solid #646464;
+	border-top: 1px solid #646464;
+	border-bottom: 1px solid #646464;
+}
+#dropdownMenuButton_A_div{
+	border: 1px;
+	width: 128px;
+	height: 44px;
+	border-top: 1px solid #646464;
+	border-bottom: 1px solid #646464;
+	border-right:0 px;
+	border-left:0 px;
+}
+#dropdownMenuButton_A{
+	height: 42px;
+	width: 128px;
+	background-color: rgb(255, 255, 255); 
+	color: #000000; 
+	cursor: pointer;
+	border: 0px;
+}
+#Search_button{
+	width: 87px;
+	height: 44px;
+	background-color: #FF5A5F;
+	border: 0px;
+	color: #FFF;
+}
+
+#portal{
+	height: 585px;
+	background-image: url('img/portal.jpg');
+	background-position: center center;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 15px;
+}
+#logo{
+	height: 32px;
+	width: 118px;
+	float: left;
+}
+#portal_text{
+	padding-top: 140px;
+	font-size: 50px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: 'cwTeXHei', sans-serif;
+	text-align: center;
+}
+#portal_text_icon{
+	height: 39px;
+	width: 174px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: rgba(255, 255, 255, 0.6);
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: 'cwTeXHei', sans-serif;
+	text-align: center;
+	line-height: 39px;
+	border-radius: 5px;
+	margin-bottom: 145px;
+}
+#pictext{
+	height: 121px;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 30px;
+	color: #565A5C;
+	font-weight: bold;
+	font-family: 'cwTeXHei', sans-serif;
+}
+
+#pic{
+	height: auto;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+#picbox{
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+#picbox_A{
+	padding-right: 15px;
+	padding-left: 0px;
+	height: 344px;
+}
+#picbox_B{
+	padding-right: 15px;
+	padding-left: 0px;
+	height: 344px;
+}
+
+#picbox_C{
+	padding-right: 0px;
+	padding-left: 0px;
+	height: 344px;
+}
+
+#allpictext{
+	height: 92px;
+	padding-top: 50px;
+}
+
+.button{
+	background-color: #FFFFFF;
+	border:0px;
+	height: 42px;
+	width: 315px;
+	font-weight: bold;
+	font-family: 'cwTeXHei', sans-serif;
+	text-align: center;
+	padding-top: 9px;
+}
+
+#worldpictext{
+	height: 121px;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 30px;
+	color: #565A5C;
+	font-weight: bold;
+	font-family: 'cwTeXHei', sans-serif;
+}
+#world_pic{
+	height: auto;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+#world_picbox{
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+#world_picbox_A{
+	padding-right: 15px;
+	padding-left: 0px;
+	height: 344px;
+	margin-bottom: 15px;
+}
+#world_picbox_B{
+	padding-right: 0px;
+	padding-left: 0px;
+	height: 344px;
+	margin-bottom: 15px;
+}
+
+#world_picbox_C{
+	padding-right: 15px;
+	padding-left: 0px;
+	height: 344px;
+}
+
+#world_picbox_D{
+	padding-right: 15px;
+	padding-left: 0px;
+	height: 344px;
+}
+#world_picbox_E{
+	padding-right: 0px;
+	padding-left: 0px;
+	height: 344px;
+}
+
+
+#video{
+	height: 1120px;
+	padding-top: 100px;
+	position: relative;
+}
+#video div{
+	font-size: 50px;
+	color: #FFFFFF; 
+	font-weight: bold; 
+	font-family: 'cwTeXHei', sans-serif; 
+	text-align: center; 
+	z-index: 900; 
+	margin-top: 390px;
+}
+#bgvid {
+	position: absolute;
+	min-width: 100%;
+	min-height: 100px;
+	width: auto;
+	height: auto;
+	padding-left: 0px;
+	transform: translateX(-1%) translateY(-50%);
+	z-index: -100;
+	/* display: none; */
+}
+
+#Moretext{
+	height: 121px;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 30px;
+	font-weight: bold;
+	color: #565A5C;
+	font-family: 'cwTeXHei', sans-serif;
+}
+#MoreBox{
+	height: auto;
+	margin-bottom: 25px;
+	/* background: #FFF; */
+/* 	float: left; */
+	/* clear: both; */
+}
+
+#row_A div{
+	height: 492px;
+	background-size: cover;
+	background-position: center center;
+/* 	clear: both; */
+}
+#row{
+	height: auto;
+}
+
+#footer{
+	height: 431px;
+	background-color: #303030;
+	padding-top: 48px;
+	/* float: left; */
+	/* clear: both; */
+}
+#footerList{
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 1px rgba(255, 255, 255, 0.6) solid;
+}
+#row_B ul li{
+	list-style-type: none;
+	color: #FFF;
+}
+#footerList_Down{
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	color: rgba(255, 255, 255, 0.6); 
+	text-align: center;
+	line-height: 121px; 
+}
+#footerList_1 button{
+	border:1px; 
+	border-color: #FFF; 
+	background-color: #4F4F4F; 
+	color: #FFF; 
+	cursor: pointer; 
+	height:45px; 
+	width: 164px;
+	margin-bottom: 10px;
+}
+
+@media (max-width: 767px) { 
+	#picbox_A{
+	padding-right: 0px;
+	}
+	#picbox_B{
+	padding-right: 0px;
+	}
+	#world_picbox_A{
+	margin-bottom: 0px;
+	padding-right: 0px;
+	}
+	#world_picbox_B{
+	margin-bottom: 0px;
+	}
+	#world_picbox_C{
+	padding-right: 0px;
+	}
+	#world_picbox_D{
+	padding-right: 0px;
+	}
+	#video {
+		display: none;
+	}
+	#footerList_3{
+		display: none;
+	}
+	#footerList_2 {
+		display: none;
+	}
+	#footerList_4 {
+		display: none;
+	}
+	#footerList_1 button{
+	width: 100%;
+	}
+	#MoreBox{
+		display: none;
+	}
+	#Moretext{
+		display: none;	
+	}
+	#SearchBox input:nth-child(2){
+		display: none;
+	}
+	#SearchBox input:nth-child(3){
+		display: none;
+	}
+	#portal_text_icon{
+	display: none;
+	}
+	#datepickerA{
+		display: none;
+	}
+	#SearchBox_B{
+		display: none;
+	}
+	#datepickerB{
+		display: none;
+	}
+	#dropdownMenuButton_A_div{
+		display: none;
+	}
+	#dropdownMenuButton_A{
+		display: none;
+	}
+	#Portal_down{
+		background-color: rgba(0, 0, 0, 0);
+	}
+	#SearchBox{
+		width: 95%;
+	}
+	#row_C{
+		width: 95%;
+	}
+	#SearchBox_A{
+		width: 80%;
+	}
+	#Search_button{
+		width: 20%;
+	}
+	#portal{
+		width: 100%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#picbox_A{
+	margin-bottom: 15px;
+	padding-right: 0px;
+	}
+	#world_picbox_A{
+	margin-bottom: 15px;
+	padding-right: 0px;
+	}
+	#world_picbox_B{
+	padding-right: 15px;
+	}
+	#world_picbox_C{
+	padding-right: 0px;
+	}
+	#video div{
+	margin-top: 170px;
+	}
+	#video{
+	height: 630px;
+	padding-top: 100px;
+	position: relative;
+	}
+	#MoreBoxA {
+		margin-bottom: 30px;
+	}
+	#MoreBoxB {
+		margin-bottom: 30px;
+	}
+	
+	#SearchBox{
+		width: 90%;
+	}
+	#row_C{
+		width: 90%;
+	}
+	#SearchBox_A{
+		width: 35%;
+	}
+	#datepickerA{
+		width: 15%;
+	}
+	#SearchBox_B{
+		width: 5%;
+	}
+	#datepickerB{
+		width: 20%;
+	}
+	#dropdownMenuButton_A_div{
+		width: 15%;
+	}
+	#dropdownMenuButton_A{
+		width: 100%;
+	}
+	#Search_button{
+		width: 10%;
+	}
+	#portal{
+		width: 100%;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+}

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+  <!-- Required meta tags -->
+  <title>Airbnb_Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="img/x-icon.ico" type="image/ico">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="coustom.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/cwtexhei.css">
+  <!-- 日期選擇器 -->
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" href="http://jqueryui.com/resources/demos/style.css">
+  <!-- Bootstrap CSS -->
+</head>
+
+<body>
+  <div id="all" class="container-fluid">
+    <div id="portal" class="container-fluid">
+      <div id="nav">
+        <div id="logo"><img src="img/logo_PC.svg" width="118px" height="32px" alt=""></div>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <div class="dropdown">
+              <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                style="border:1px; border-color: #FFF; background-color: rgba(0,0,0,0); color: #FFF; cursor: pointer;">
+                成為房東
+                </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">出租房源</a>
+                <a class="dropdown-item" href="#">沒有時間出租?</a>
+                <a class="dropdown-item" href="#">開展體驗</a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">幫助</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">註冊</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">登入</a>
+          </li>
+        </ul>
+      </div>
+      <div id="portal_text">
+        歡迎回家<br>
+        <h6>從超過120個國家的當地人租住獨一無二的家</h6>
+      </div>
+      <div id="portal_text_icon"><a href="#" style="color: #FFF; text-decoration:none;">如何使用airbnb</a></div>
+      <div id="Portal_down">
+        <div id="SearchBox">
+          <div id="row_C" class="row">
+            <input id="SearchBox_A" type="text" placeholder="您想去哪裡?"><input type="text" id="datepickerA" placeholder=" 入住日期">
+            <div id="SearchBox_B" >→</div><input type="text" id="datepickerB" placeholder=" 退房日期">
+            <div id="dropdownMenuButton_A_div"class="dropdown">
+              <button class="dropdown-toggle" type="button" id="dropdownMenuButton_A" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">1位房客</button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton_A">
+                <a class="dropdown-item" href="#">2位房客</a>
+                <a class="dropdown-item" href="#">3位房客</a>
+                <a class="dropdown-item" href="#">4位房客</a>
+              </div>
+            </div>
+            <button id="Search_button" type="submit">搜索</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="pictext" class="container-fluid">
+      週末好去處<br>
+      <h6>發現離家近的好地方</h6>
+    </div>
+    <div id="pic" class="container-fluid">
+      <div id="picbox" class="col-lg-8 col-md-8 col-sm-12">
+        <div id="row" class="row" style="font-size: 28px; color: #FFF; text-align:center; line-height:344px; font-weight:bold; font-family: 'cwTeXHei', sans-serif;">
+          <div id="picbox_A" class="col-lg-4 col-md-12 col-sm-12">
+            <div class="col" style="background-image: url(img/pic5.jpg); background-size: cover; background-position: center center; height: 344px;">法國</div>
+          </div>
+          <div id="picbox_B" class="col-lg-4 col-md-6 col-sm-12">
+            <div class="col" style="background-image: url(img/pic2.jpg); background-size: cover; background-position: center center; height: 344px;">首爾</div>
+          </div>
+          <div id="picbox_C" class="col-lg-4 col-md-6 col-sm-12">
+            <div class="col" style="background-image: url(img/pic3.jpg); background-size: cover; background-position: center center; height: 344px; ">日本</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="allpictext" class="container-fluid">
+    <div class="button" type="submit" style="margin-right: auto; margin-left: auto; color: #565A5C;"><a href="" style="text-decoration:none; color: #565A5C;">查看所有目的地</a></div>
+  </div>
+  <div id="worldpictext" class="container-fluid">
+    探索世界<br>
+    <h6>蒐羅全球熱門目的地</h6>
+  </div>
+  <div id="world_pic" class="container-fluid">
+    <div id="world_picbox" class="col-lg-8 col-md-8 col-sm-12">
+      <div id="row" class="row" style="font-size: 28px; color: #FFF; text-align:center; line-height:344px; font-weight:bold; font-family: 'cwTeXHei', sans-serif;">
+        <div id="world_picbox_A" class="col-lg-8 col-md-12 col-sm-12">
+          <div class="col" style="background-image: url(img/pic1.jpg); background-size: cover; background-position: center center; height: 344px;">東京</div>
+        </div>
+        <div id="world_picbox_B" class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col" style="background-image: url(img/pic4.jpg); background-size: cover; background-position: center center; height: 344px;">巴黎</div>
+        </div>
+        <div id="world_picbox_C" class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col" style="background-image: url(img/pic6.jpg); background-size: cover; background-position: center center; height: 344px; ">中國</div>
+        </div>
+        <div id="world_picbox_D" class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col" style="background-image: url(img/pic7.jpg); background-size: cover; background-position: center center; height: 344px; ">紐西蘭</div>
+        </div>
+        <div id="world_picbox_E" class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col" style="background-image: url(img/pic8.jpg); background-size: cover; background-position: center center; height: 344px; ">米蘭</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="video" class="container-fluid">
+    <div>
+      家在四方<br>
+      <h6>Airbnb房東在世界各地締造一個個有歸屬的家</h6>
+    </div>
+    <video autoplay loop id="bgvid">
+      <source src="http://thenewcode.com/assets/videos/polina.webm" type="video/mp4">
+    </video>
+  </div>
+  <div id="Moretext" class="container-fluid">
+    我們的社區
+  </div>
+  <div id="MoreBox" class="col-lg-12 col-md-12">
+    <div id="row_A" class="row">
+      <div id="MoreBoxA" class="col-lg-3 col-md-6">
+        <div class="col" style="background-image: url(img/pic11.jpg); "></div>
+      </div>
+      <div id="MoreBoxB" class="col-lg-3 col-md-6">
+        <div class="col" style="background-image: url('img/pic12.jpg');"></div>
+      </div>
+      <div id="MoreBoxC" class="col-lg-3 col-md-6">
+        <div class="col" style="background-image: url('img/pic13.jpg');"></div>
+      </div>
+      <div id="MoreBoxD" class="col-lg-3 col-md-6">
+        <div class="col" style="background-image: url('img/pic14.jpg');"></div>
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    <div id="footerList" class="col-8">
+      <div id="row_B" class="row">
+        <div id="footerList_1" class="col-lg-3 col-md-3 col-sm-12">
+          <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            中文(繁體)
+            </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">中文(簡體)</a>
+            <a class="dropdown-item" href="#">英文(美式)</a>
+          </div>
+          <div>
+            <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              TWD
+              </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">HKD</a>
+              <a class="dropdown-item" href="#">USD</a>
+            </div>
+          </div>
+        </div>
+        <div id="footerList_2" class="col-3">
+          <ul>
+            <li>
+              <h5>
+                <B>公司</B>
+              </h5>
+            </li>
+            <li>關於</li>
+            <li>工作機會</li>
+            <li>傳媒</li>
+            <li>Blog</li>
+            <li>幫助</li>
+            <li>政策</li>
+            <li>災難響應</li>
+            <li>服務條款與隱私</li>
+            <li>聲明</li>
+          </ul>
+        </div>
+        <div id="footerList_3" class="col-3">
+          <ul>
+            <li>
+              <h5>
+                <B>探索</B>
+              </h5>
+            </li>
+            <li>信任與安全</li>
+            <li>邀請好友</li>
+            <li>Airbnb精選</li>
+            <li>手機功能版</li>
+            <li>支持紐約市</li>
+            <li>商務差旅</li>
+            <li>網站地圖</li>
+          </ul>
+        </div>
+        <div id="footerList_4" class="col-3">
+          <ul>
+            <li>
+              <h5>
+                <B>出租</B>
+              </h5>
+            </li>
+            <li>為何出租?</li>
+            <li>好客之道</li>
+            <li>房東義務</li>
+            <li>居家安全</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="footerList_Down" class="col-8">© Airbnb, Inc.</div>
+  </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+    crossorigin="anonymous"></script>
+  <!-- //日期選擇器 -->
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  <script>
+    $(function () {
+      $("#datepickerA").datepicker({ dateFormat: 'yy-mm-dd' });
+    });
+  </script>
+  <script>
+    $(function () {
+      $("#datepickerB").datepicker({ dateFormat: 'yy-mm-dd' });
+    });
+  </script>
+</body>
+
+</html>
