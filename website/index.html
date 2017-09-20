@@ -7,18 +7,19 @@
     <link rel="stylesheet" href="portal.css">
     <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
     <script type="text/javascript">
-        
-       
-       if(window.innerWidth && window.innerWidth <= 737){
-        
-       
-       document.location.href="https://xinxuan0313.github.io/website_PHONE";
-        
-       
-       }
-        
-       
-       </script>
+function checkserAgent(){
+var userAgentInfo=navigator.userAgent;
+var userAgentKeywords=new Array(“Android", “iPhone" ,"SymbianOS", “Windows Phone", “iPad", “iPod", “MQQBrowser");
+var flag=false;
+if(userAgentInfo.indexOf(“Windows NT")==-1){
+flag=true;
+}
+return flag;
+}
+if(checkserAgent()){
+document.location.href="https://xinxuan0313.github.io/website_PHONE/";
+}
+</script>
     <title>日享星醺</title>
 </head>
 <body>
