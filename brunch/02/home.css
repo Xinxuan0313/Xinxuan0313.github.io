@@ -1,18 +1,14 @@
 @charset "UTF-8";
-bady{
+body{
     padding:0px;
     margin:0px;
     padding:0px;
     background-image: url('img/allBackground.jpg');
-    background-repeat: repeat;
+    /* background-repeat: repeat; */
 }
 #all{
-    /* height: 6639px; */
+    height: auto;
     width: auto;
-    /* position: relative; */
-    background-image: url('img/allBackground.jpg');
-    background-size: cover;
-    background-repeat: repeat;
 }
 #home{
     height: 1080px;
@@ -43,16 +39,23 @@ bady{
     margin-left: auto;
     margin-right: auto;
 }
-a:link{
+
+#nav a:link , #nav a:visited , #footer_mid a:link ,  #footer_mid a:visited{
     color: #FFF;
 }
-a:visited{
-    color: #FFF;
-}
-a:hover {
+#nav a:hover {
     font-size:23px;
     text-decoration:none;
 }
+#footer_mid a:hover {
+    text-decoration:none;
+}
+
+.dropdown-menu a{
+    color:#000;
+}
+
+
 #logobox{
     background-image: url('img/LOGO.png');
     background-size: cover;
@@ -159,17 +162,18 @@ a:hover {
     background-image: url('img/13-06.jpg');
     background-size: cover;
     height:960px;
-    position: relative;
+    /* position: relative; */
     margin-bottom: 140px;
     /* clear: both; */
+    padding-top: 243px;
 }
 #bookingbox{
     height: 502px;
     width: 445px;
     background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    left: 1047px;
-    top: 243px;
+    /* position: absolute; */
+    margin-left: 1047px;
+    /* top: 243px; */
     padding-top:57px;
     padding-left:28px;
     /* clear: both; */
@@ -214,7 +218,7 @@ a:hover {
     width: 638px;
     height: 798px;
     padding-top: 250px;
-    background-color: #C9C9C9;
+    background-color: rgba(255, 255, 255, 0.5);
     color: #000;
     font-size: 34px;
     text-align: center;
@@ -255,3 +259,18 @@ a:hover {
     line-height: 90px;
 
 }
+
+
+@media (max-width: 575px) { ... }
+
+
+@media (min-width: 576px) and (max-width: 767px) { ... }
+
+
+@media (min-width: 768px) and (max-width: 991px) { ... }
+
+
+@media (min-width: 992px) and (max-width: 1199px) { ... }
+
+
+@media (min-width: 1200px) { ... }

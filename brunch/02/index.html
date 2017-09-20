@@ -10,22 +10,27 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="home.css">
+    <!-- 燈箱 -->
+    <link rel="stylesheet" href="lightbox/lightbox.css" type="text/css" />
+    
   </head>
   <body>
         <div id="all">
-          <div id="home">
-            <div id="nav" class="row">
-              <div id="nav1"><a href="https://Xinxuan0313.github.io/brunch">首頁Home</a></div>
-              <div id="nav2"><a href="#aboutus">關於我們About us</a></div>
-              <div id="nav3"><a href="Xinxuan0313.github.io/brunch/03">精緻菜單Menu</a></div>
-              <div id="nav4"><a href="#discount">主題促銷Special discount</a></div>
-              <div id="nav5"><a href="#booking">線上訂位Reservation</a></div>
-              <div id="nav6"><a href="#contactus">聯絡我們Contact us</a></div>
+          <div id="home" class="container-fluid">
+            <div id="nav" class="col-12">
+              <div id="navrow" class="row">
+              <div id="nav1" class="col-2"><a href="https://Xinxuan0313.github.io/brunch">首頁Home</a></div>
+              <div id="nav2" class="col-2"><a href="#aboutus">關於我們About us</a></div>
+              <div id="nav3" class="col-2"><a href="img/menu.jpg" rel="lightbox">精緻菜單Menu</a></div>
+              <div id="nav4" class="col-2"><a href="#discount">主題促銷Special discount</a></div>
+              <div id="nav5" class="col-2"><a href="#booking">線上訂位Reservation</a></div>
+              <div id="nav6" class="col-2"><a href="#contactus">聯絡我們Contact us</a></div>
+            </div>
             </div>
             <div id="logobox"></div>
           </div>
           </div>
-          <div id="aboutus" class="col-12"><div id="aboutus_cover" class="col-12"><div id="about_text"><p><h2>來看故事Abuout us</h2></p>
+          <div id="aboutus" class="container-fluid"><div id="aboutus_cover" class="col-12"><div id="about_text"><p><h2>來看故事Abuout us</h2></p>
             <p>五個剛出社會的小女生來到<br>
             豐原打拼，下班卻找不到地<br>
             方小酌放鬆，疲累的情緒無<br>
@@ -55,8 +60,8 @@
                 <div id="food8" class="col"><div id="food8pic"></div></div>
            </div>
           </div>
-          <div id="discount" class="col-12"></div>
-          <div id="booking" class="col-12">
+          <div id="discount" class="container-fluid"></div>
+          <div id="booking" class="container-fluid">
             <div id="bookingbox">
                 <input type="text" id="bookingbox_date" placeholder="選擇日期"></input>
                 <div id="bookingboxtime" class="btn-group" role="group">
@@ -90,12 +95,12 @@
                 </div>
             </div>            
           </div>
-          <div id="footer" class="col-12">
+          <div id="footer" class="container-fluid">
               <div id="footer_up"></div>
             <div id="footer_mid">
             <ul>
             <li><a href="#aboutus">關於我們 About us</a></li>
-            <li><a href="Xinxuan0313.github.io/brunch/03">精緻菜單Menu</a></li>
+            <li><a href="img/menu.jpg" rel="lightbox">精緻菜單Menu</a></li>
             <li><a href="#discount">主題促銷Special discount</a></li>
             <li><a href="#booking">線上訂位Reservation</a></li>
             <li><a href="#contactus">聯絡我們Contact us</a></li>
@@ -122,5 +127,18 @@
         $("#bookingbox_date").datepicker({ dateFormat: 'yy-mm-dd' });
       });
     </script>
+    <!-- 燈箱 -->
+    <script type="text/javascript" src="lightbox/lightbox.js"></script>
+    <!-- 動畫 -->
+    <script src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript">
+        $('a').click(function(){
+    $('html, body').animate({
+    scrollTop: $( $(this).attr('href') ).offset().top
+    }, 500);
+    return false;
+    });
+    </script>
+
   </body>
 </html>
