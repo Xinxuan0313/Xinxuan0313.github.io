@@ -13,19 +13,18 @@
         <button id="button" type="button" onclick="location.href='02'">進入官網</button>
     </div>
     
-<script type=”text/javascript”>
-    function checkserAgent(){
-    var userAgentInfo=navigator.userAgent;
-    var userAgentKeywords=new Array(“Android”, “iPhone” ,”SymbianOS”, “Windows Phone”, “iPad”, “iPod”, “MQQBrowser”);
-    var flag=false;
-    if(userAgentInfo.indexOf(“Windows NT”)==-1){
-    flag=true;
-    }
-    return flag;
-    }
-    if(checkserAgent()){
-    document.location.href=”https://xinxuan0313.github.io/website_PHONE”;
-    }
- </script>
+    <script type="text/javascript">
+        
+       
+       if(window.innerWidth && window.innerWidth <= 737){
+        
+       
+       document.location.href="https://xinxuan0313.github.io/website_PHONE";
+        
+       
+       }
+        
+       
+       </script>
 </body>
 </html>
