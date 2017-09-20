@@ -24,7 +24,7 @@ body{
 }
 nav{
     /* background-color: rgba(0, 0, 0, 0.7); */
-    /* width: 100%; */
+    width: 100%;
     height:70px;
     position: fixed;
     top:0px;
@@ -192,41 +192,42 @@ nav a:hover {
 }
 #bookingbox{
     height: 502px;
-    width: 445px;
+    /* width: 445px; */
     background-color: rgba(0, 0, 0, 0.5);
     /* position: absolute; */
     margin-left: 800px;
     /* top: 243px; */
     padding-top:57px;
-    padding-left:28px;
+    /* padding-left:28px; */
     /* clear: both; */
 }
 #bookingbox_date{
-    width: 388px;
+    /* width: 100%; */
     height: 56px;
     margin-bottom: 27px;
 }
 #bookingboxtime{
+    /* width: 100%; */
     margin-bottom: 27px;
 }
 #btnGroupDrop1{
-    width: 388px;
+    /* width: 388px; */
     height: 56px;
 }
 #btnGroupDrop2{
-    width: 388px;
+    /* width: 388px; */
     height: 56px;
 }
 #bookingboxpeople{
     margin-bottom: 27px;
 }
 #bookingbox_name{
-    width: 388px;
+    /* width: 388px; */
     height: 56px;
     margin-bottom: 27px;
 }
 #bookingbox_phone{
-    width: 388px;
+    /* width: 388px; */
     height: 56px;
 }
 #contactus{
@@ -293,6 +294,7 @@ nav a:hover {
         background-image: url('img/M_A.jpg');
         height: 100vh;
         background-size: cover;
+        background-position: center;
     }
     #aboutus_cover{
         padding-left: 20%;
@@ -308,21 +310,38 @@ nav a:hover {
     }
     #bookingbox{
         height: 502px;
-        width: 445px;
+        /* width: 445px; */
         background-color: rgba(0, 0, 0, 0.5);
         /* position: absolute; */
-        margin-left: 10px;
+        /* margin-left: 10px; */
         /* top: 243px; */
         padding-top:20px;
-        padding-left:40px;
+        margin-left: auto;
+        margin-right: auto;
+        /* padding-left:40px; */
         /* clear: both; */
     }
     #booking{
         background-image: url('img/booking_m.jpg');
         background-size: cover;
+        background-position: center;
     }
     #map{
         display: none;
+    }
+    #discount{
+        background-image: url('img/discount_M.jpg');
+        background-position: center;
+    }  
+    #logobox{
+        height: 100px;
+        /* width: 519px; */
+        /* margin-left: -259.5px; */
+        margin-right: auto; 
+        position: absolute;
+        top: 150px;
+        left: 85%;
+        z-index: 998;
     }
 }
 
