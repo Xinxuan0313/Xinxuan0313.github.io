@@ -3,6 +3,8 @@
 	padding: 10px;
 	border-bottom: 2px solid #000;
 	border-right: 2px solid #000;
+	height: auto;
+	margin-top: 100px;
 	}
 #lightboxDetails{
 	font-size: 0.8em;
