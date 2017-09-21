@@ -1,0 +1,347 @@
+@charset "UTF-8";
+body{
+    padding:0px;
+    margin:0px;
+    padding:0px;
+    background-image: url('img/allBackground.jpg');
+    /* background-repeat: repeat; */
+}
+#all{
+    height: auto;
+    width: auto;
+}
+#home{
+    height: 100vh;
+    width: 100%;
+    background-image: url('img/PC_A.jpg');
+    background-position: center;
+    background-size: cover;
+    /* padding-top:180px; */
+    margin-bottom: 70px;
+    padding-top:150px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    top:0px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.7);
+    z-index: 999;
+} 
+.navbar{
+    position: fixed;
+} 
+
+/* .bg-dark{
+    background-color: rgba(0, 0, 0, 0.8);
+} */
+
+nav a:link , #nav a:visited , #footer_mid a:link ,  #footer_mid a:visited{
+    color: #FFF;
+}
+nav a:hover {
+    text-decoration:none;
+    color: #FFF020;
+}  
+#footer_mid a:hover {
+    text-decoration:none;
+}
+
+.dropdown-menu a{
+    color:#000;
+}
+
+
+#logobox{
+    background-image: url('img/LOGO.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+#aboutus{
+    background-image: url('img/AboutUs.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 750px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    margin-bottom: 140px;
+}
+#aboutus_cover{
+    position: absolute;
+    bottom: 0px;
+    height: 750px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+0&0.85+0,0.85+50,0+100 */
+    background: -moz-linear-gradient(left, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.85) 50%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.85) 50%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.85) 50%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+    padding-left: 200px;
+    padding-top: 120px;
+}
+#about_text{
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 13px;
+}
+#about_text h2{
+    letter-spacing: 5px;
+}
+#food{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 140px;
+}
+#foodrow{
+    margin-bottom: 70px;
+}
+#food1pic{
+    background-image: url('img/food01.jpg');
+    height:300px;
+    background-size: cover;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+#food2pic{
+    background-image: url('img/food02.jpg');
+    height:300px;
+    background-size: cover;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+#food3pic{
+    background-image: url('img/food03.jpg');
+    height:300px;
+    background-size: cover;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+#food4pic{
+    background-image: url('img/food04.jpg');
+    height:300px;
+    background-size: cover;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+#food5pic{
+    background-image: url('img/food05.jpg');
+    height:300px;
+    background-size: cover;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+#food6pic{
+    background-image: url('img/food06.jpg');
+    height:300px;
+    background-size: cover;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+#food7pic{
+    background-image: url('img/food07.jpg');
+    height:300px;
+    background-size: cover;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+#food8pic{
+    background-image: url('img/food08.jpg');
+    background-size: cover;
+    height:300px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+#discount{
+    background-image: url('img/discount.jpg');
+    background-size: cover;
+    background-position: center;
+    height:750px;
+    margin-bottom: 70px;
+}
+#booking{
+    background-image: url('img/13-06.jpg');
+    background-size: cover;
+    height:750px;
+    background-position: -50px 0px;
+    /* position: relative; */
+    margin-bottom: 140px;
+    /* clear: both; */
+    padding-top: 200px;
+}
+#bookingbox{
+    height: 502px;
+    /* width: 445px; */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* position: absolute; */
+    margin-left: 800px;
+    /* top: 243px; */
+    padding-top:57px;
+    /* padding-left:28px; */
+    /* clear: both; */
+}
+#bookingbox_date{
+    /* width: 100%; */
+    height: 56px;
+    margin-bottom: 27px;
+}
+#bookingboxtime{
+    /* width: 100%; */
+    margin-bottom: 27px;
+}
+#btnGroupDrop1{
+    /* width: 388px; */
+    height: 56px;
+}
+#btnGroupDrop2{
+    /* width: 388px; */
+    height: 56px;
+}
+#bookingboxpeople{
+    margin-bottom: 27px;
+}
+#bookingbox_name{
+    /* width: 388px; */
+    height: 56px;
+    margin-bottom: 27px;
+}
+#bookingbox_phone{
+    /* width: 388px; */
+    height: 56px;
+}
+#contactus{
+    /* background-color: #000; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 140px;
+    padding: 0px;
+    position: relative;
+}
+#contactus_text{
+    width: 638px;
+    height: 750px;
+    padding-top: 250px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000;
+    font-size: 34px;
+    text-align: center;
+    /* line-height: 100px; */
+
+}
+#map{
+    position: absolute;
+    right:0px;
+}
+#footer{
+    height: auto;
+    background: url(img/PC_A.jpg);
+    color: #fff;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+#footer_up{
+    height: 80px;
+}
+#footer_mid{
+    margin-left: auto;
+    margin-right: auto;
+    height:50px;
+    border-bottom: solid 1px #fff;
+}
+#footer ul li{
+    float: left;
+    list-style-type: none;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    font-size: 16px;
+
+}
+#footer_dow{
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+
+}
+
+
+@media (max-width: 767px) { 
+    #food{
+        display:none;
+    }
+    #home{
+        background-image: url('img/M_A.jpg');
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+    #aboutus_cover{
+        padding-left: 0px;
+        padding-top: 120px;
+    }
+    #aboutus_cover{
+        padding-left: 20%;
+        padding-top: 120px;
+    }
+    #about_text{
+        color: #fff;
+        font-size: 20px;
+        letter-spacing: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #about_text h2{
+        letter-spacing: 0px;
+    }
+    #bookingbox{
+        height: 502px;
+        /* width: 445px; */
+        background-color: rgba(0, 0, 0, 0.5);
+        /* position: absolute; */
+        /* margin-left: 10px; */
+        /* top: 243px; */
+        padding-top:20px;
+        margin-left: auto;
+        margin-right: auto;
+        /* padding-left:40px; */
+        /* clear: both; */
+    }
+    #booking{
+        background-image: url('img/booking_m.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    #map{
+        display: none;
+    }
+    #discount{
+        background-image: url('img/discount_M.jpg');
+        background-position: center;
+    }  
+    #logobox{
+        height: 100px;
+     }
+     #contactus_text{
+         font-size:20px;
+         height: 300px;
+         padding-top: 50px;
+    }   
+    #footer_mid{
+        height:auto;
+        border-bottom: solid 1px rgba(255, 255, 255, 0);
+    }
+    #footer_up{
+        display:none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+
+}
