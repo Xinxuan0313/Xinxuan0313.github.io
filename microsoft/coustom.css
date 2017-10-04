@@ -69,7 +69,7 @@ nav{
 
 .servicebox{
     background-color: #fff;
-    height: 208px;
+    height: auto;
     padding-right: 49px;
     padding-left: 49px;
     margin-bottom: 17px;
@@ -86,6 +86,7 @@ nav{
     background-size: cover;
     cursor: pointer;
     opacity: 1.0;
+    margin-bottom: 17px;
 }
 .serviceXX:hover{
     opacity: 0.9;
@@ -113,25 +114,9 @@ nav{
     background-image: url(img/RE2-3ynyJ.png);
 }
 #service2DD{
-    background-image: url(img/RE2-4OLLm.png);
+    background-image: url(img/RE2-4OLLm.png); 
 }
 
-.servicetext{
-    background-color: #fff;
-    height: 97px;
-    padding-right: 49px;
-    padding-left: 49px;
-    font-size: 14px;
-    margin-bottom: 63px;
-    cursor: pointer;
-}
-.servicetextX{
-    background-color: #fff;
-    padding-right: 12.5px;
-    padding-left: 12.5px;
-    height: 97px;
-    cursor: pointer;
-}
 #servicetextXX{
     height: 97px;
     background-color: #fff;
@@ -152,9 +137,10 @@ nav{
 }
 
 #footer{
-    height: 409px;
+    height: auto;
     background-color: #F2F2F2;
     padding-top: 40px;
+    padding-bottom: 80px;
 }
 
 
